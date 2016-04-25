@@ -24,6 +24,9 @@ namespace WindowsFormsApplication1
             int sum;
             sum=x + y;
             Console.Write(sum);
+            x = 3;
+            y = x * 3;
+            sum = x + y;
            
 
         }
