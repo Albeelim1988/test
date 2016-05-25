@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
-//using System.IO;
+
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,7 +28,7 @@ namespace WindowsFormsApplication1
             y = x * 3;
             sum = x + y;
             sum = x - y;
-            //FileStraam fileO = File.OpenRead("text.txt"); //demo 
+            FileStraam fileO = File.OpenRead("text.txt"); //demo 
 
             /*test test1 = new test(1);
             test test2 = new test(2);
