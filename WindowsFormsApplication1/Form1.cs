@@ -28,8 +28,7 @@ namespace WindowsFormsApplication1
             y = x * 3;
             sum = x + y;
             sum = x - y;
-            FileStraam fileO = File.OpenRead("text.txt"); //demo 
-
+            FileStraam fileO = File.OpenRead("text.txt"); //demo 123
             /*test test1 = new test(1);
             test test2 = new test(2);
             test test3 = new test(3);*/
