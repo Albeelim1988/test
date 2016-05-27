@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace WindowsFormsApplication1
 {
@@ -18,21 +19,24 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
         int x = 4, y = 1;
+        public double mathvalue()
+        {
+            return Math.PI * 15 / 180;
+        }
         private void button1_Click(object sender, EventArgs e)
         {
 
-            int sum;
-            sum = x + y;
-            Console.Write(sum);
-            x = 3;
-            y = x * 3;
-            sum = x + y;
-            sum = x - y;
-            FileStraam fileO = File.OpenRead("text.txt"); //demo 123
+            double angle;       
+ List < int > mylist = new List<int> { 4, 7, 2, 5, 0, 6 };
+
+            angle = Math.PI * 15 / 180;
+            //angle = mathvalue();
+            //sum = x - y;
+           // FileStraam fileO = File.OpenRead("text.txt"); //demo 123
             /*test test1 = new test(1);
             test test2 = new test(2);
             test test3 = new test(3);*/
-            int test1 = 1; //comment
+            //int test1 = 1; //comment
             /*switch (test1)
             {
                 case (test1 <9):
@@ -47,6 +51,7 @@ namespace WindowsFormsApplication1
             }*/
         }
     }
+    
     class test
     {
         public int value { get; set; }
